@@ -8,7 +8,7 @@ const movies = [
     director: 'Edward Zwick',
     duration: 143,
     isFavorite: false,
-    poster: '/assets/movies/inception.jpg',
+    poster: '/movies/blood-diamond.jpg',
     description:
       'A fisherman, a smuggler, and a journalist join forces during the Sierra Leone Civil War.',
   },
@@ -21,7 +21,7 @@ const movies = [
     director: 'Steven Spielberg',
     duration: 141,
     isFavorite: false,
-    poster: 'assets/movies/catch-me-if-you-can.jpeg',
+    poster: '/movies/catch-me-if-you-can.jpeg',
     description: 'A young con artist successfully cons millions before his 19th birthday.',
   },
   {
@@ -33,7 +33,7 @@ const movies = [
     director: 'Quentin Tarantino',
     duration: 165,
     isFavorite: false,
-    poster: 'django-unchained.jpeg',
+    poster: '/movies/django-unchained.jpeg',
     description: 'A freed slave sets out to rescue his wife from a brutal plantation owner.',
   },
   {
@@ -45,7 +45,7 @@ const movies = [
     director: 'Christopher Nolan',
     duration: 148,
     isFavorite: false,
-    poster: 'assets/movies/inception.jpg',
+    poster: '/movies/inception.jpg',
     description: 'A skilled thief leads a team into dreams to plant an idea into a target’s mind.',
   },
   {
@@ -57,7 +57,7 @@ const movies = [
     director: 'Sam Mendes',
     duration: 119,
     isFavorite: false,
-    poster: 'revolutionary-road.jpg',
+    poster: '/movies/revolutionary-road.jpg',
     description: 'A young couple struggles to escape the emptiness of suburban life.',
   },
   {
@@ -69,7 +69,7 @@ const movies = [
     director: 'Baz Luhrmann',
     duration: 120,
     isFavorite: false,
-    poster: 'romeo-and-juliet.jpg',
+    poster: '/movies/romeo-and-juliet.jpg',
     description: 'A modern adaptation of Shakespeare’s classic love story.',
   },
   {
@@ -81,7 +81,7 @@ const movies = [
     director: 'Martin Scorsese',
     duration: 138,
     isFavorite: false,
-    poster: 'shutter-island.jpg',
+    poster: '/movies/shutter-island.jpg',
     description: 'A U.S. Marshal investigates a psychiatric facility with dark secrets.',
   },
   {
@@ -93,7 +93,7 @@ const movies = [
     director: 'Martin Scorsese',
     duration: 170,
     isFavorite: false,
-    poster: 'the-aviator.jpg',
+    poster: '/movies/the-aviator.jpg',
     description: 'The life of aviation pioneer and filmmaker Howard Hughes.',
   },
   {
@@ -105,7 +105,7 @@ const movies = [
     director: 'Martin Scorsese',
     duration: 151,
     isFavorite: false,
-    poster: 'the-departed.jpg',
+    poster: '/movies/the-departed.jpg',
     description: 'An undercover cop and a mole in the police attempt to identify each other.',
   },
   {
@@ -117,7 +117,7 @@ const movies = [
     director: 'Baz Luhrmann',
     duration: 143,
     isFavorite: false,
-    poster: 'the-great-gatsby.jpg',
+    poster: '/movies/the-great-gatsby.jpg',
     description: 'A mysterious millionaire and his obsession with a lost love.',
   },
   {
@@ -129,7 +129,7 @@ const movies = [
     director: 'Martin Scorsese',
     duration: 180,
     isFavorite: false,
-    poster: 'wolf-of-wall-street.jpg',
+    poster: '/movies/wolf-of-wall-street.jpg',
     description: 'The rise and fall of a stockbroker living the high life.',
   },
   {
@@ -141,7 +141,7 @@ const movies = [
     director: 'James Cameron',
     duration: 195,
     isFavorite: false,
-    poster: 'titanic.jpg',
+    poster: '/movies/titanic.jpg',
     description: 'A love story unfolds aboard the ill-fated RMS Titanic.',
   },
   {
@@ -153,7 +153,7 @@ const movies = [
     director: 'Anna Kendrick',
     duration: 95,
     isFavorite: false,
-    poster: 'woman-of-the-hour.jpg',
+    poster: '/movies/woman-of-the-hour.jpg',
     description: 'A true-crime story centered around a serial killer on a dating show.',
   },
 ]
