@@ -8,7 +8,7 @@ const movies = [
     director: 'Edward Zwick',
     duration: 143,
     isFavorite: false,
-    poster: '/movies/blood-diamond.jpg',
+    poster: '/movies/blood-diamond.jpeg',
     description:
       'A fisherman, a smuggler, and a journalist join forces during the Sierra Leone Civil War.',
   },

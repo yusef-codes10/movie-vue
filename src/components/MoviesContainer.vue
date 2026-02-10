@@ -5,9 +5,14 @@ console.log(movies)
 </script>
 
 <template>
-  <div class="movies-container" v-for="movie in movies" :key="movie.id">
-    <MovieC :img="movie.poster" :title="movies.title" />
+  <div class="movies-container">
+    <MovieC v-for="movie in movies" :key="movie.id" :img="movie.poster" :title="movie.title" />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+</style>
