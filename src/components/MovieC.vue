@@ -52,7 +52,9 @@ defineProps({
   padding: 0.5rem;
   text-align: center;
   position: absolute;
-  bottom: 10px;
+  bottom: 0;
+  background-color: #111;
+  width: 100%;
 }
 
 .title h2 {
