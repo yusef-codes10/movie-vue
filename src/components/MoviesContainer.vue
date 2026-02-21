@@ -1,7 +1,22 @@
 <script setup>
 import MovieC from './MovieC.vue'
-import movies from '@/data/movies.js'
-console.log(movies)
+import { ref, onMounted } from 'vue'
+
+const movies = ref([])
+
+onMounted(async () => {
+  try {
+    const API_KEY = import.meta.env.VITE_OMDB_KEY
+
+    const response = await fetch(`https://www.omdbapi.com/?s=batman&apikey=${API_KEY}`)
+
+    const data = await response.json()
+
+    movies.value = data.Search || []
+  } catch (error) {
+    console.log(error)
+  }
+})
 </script>
 
 <template>
