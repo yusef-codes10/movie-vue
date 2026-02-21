@@ -1,10 +1,9 @@
 <script setup>
-import { defineProps } from 'vue'
-import movies from '@/data/movies.js'
-console.log(movies)
-
-// we need props heree
 defineProps({
+  id: {
+    type: String,
+    required: true,
+  },
   title: {
     type: String,
     required: true,

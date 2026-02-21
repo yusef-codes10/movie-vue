@@ -13,6 +13,8 @@ onMounted(async () => {
     const data = await response.json()
 
     movies.value = data.Search || []
+
+    console.log(movies.value)
   } catch (error) {
     console.log(error)
   }
